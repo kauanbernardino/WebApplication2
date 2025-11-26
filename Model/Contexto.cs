@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using WebApplication1.Models;
 
 namespace WebApplication1.Model
 {
@@ -9,5 +10,6 @@ namespace WebApplication1.Model
 
         public DbSet<Aluno> Alunos { get; set; }
         public DbSet<Disciplina> Disciplinas { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 }
