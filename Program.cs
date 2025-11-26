@@ -103,11 +103,10 @@ var app = builder.Build();
 // ==========================================
 
 // Configura o Swagger
-if (app.Environment.IsDevelopment())
-{
+
     app.UseSwagger();
     app.UseSwaggerUI();
-}
+
 
 app.UseHttpsRedirection();
 
